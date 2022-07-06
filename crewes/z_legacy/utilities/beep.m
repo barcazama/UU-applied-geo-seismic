@@ -1,0 +1,1 @@
+disp(setstr(7))

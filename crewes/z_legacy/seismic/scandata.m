@@ -1,0 +1,1 @@
+function s= scandata(x)%%  s = 0;  j = 1; while( j<= length(x) )  test = x(j);  i = j; while( x(i) == test)     i = i+1;     if i>length(x)	break;     end end   x(j), i-1   j=i;    s = [s i-1];  end      	
